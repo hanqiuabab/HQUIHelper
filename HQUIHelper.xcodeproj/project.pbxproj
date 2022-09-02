@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9319679328C192C600909DB3 /* HQCodeAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9319679228C192C600909DB3 /* HQCodeAreaViewController.m */; };
+		9319679728C193D100909DB3 /* HQCodeHFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9319679628C193D100909DB3 /* HQCodeHFileViewController.m */; };
+		9319679B28C193EA00909DB3 /* HQCodeMFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9319679A28C193EA00909DB3 /* HQCodeMFileViewController.m */; };
+		9319679F28C19E3400909DB3 /* HQElementAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9319679E28C19E3400909DB3 /* HQElementAreaViewController.m */; };
+		931967A328C1DC5100909DB3 /* HQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931967A228C1DC5100909DB3 /* HQSettingViewController.m */; };
+		931967A728C1DC8400909DB3 /* HQGeneralSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931967A628C1DC8400909DB3 /* HQGeneralSettingViewController.m */; };
+		931967AC28C1E15400909DB3 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 931967AB28C1E15400909DB3 /* NSDate+Extension.m */; };
 		9320173728BF55F7006B8E23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9320173628BF55F7006B8E23 /* AppDelegate.m */; };
 		9320173C28BF55F8006B8E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9320173B28BF55F8006B8E23 /* Assets.xcassets */; };
 		9320173F28BF55F8006B8E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9320173D28BF55F8006B8E23 /* Main.storyboard */; };
@@ -21,6 +28,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9319679128C192C600909DB3 /* HQCodeAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCodeAreaViewController.h; sourceTree = "<group>"; };
+		9319679228C192C600909DB3 /* HQCodeAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCodeAreaViewController.m; sourceTree = "<group>"; };
+		9319679528C193D100909DB3 /* HQCodeHFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCodeHFileViewController.h; sourceTree = "<group>"; };
+		9319679628C193D100909DB3 /* HQCodeHFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCodeHFileViewController.m; sourceTree = "<group>"; };
+		9319679928C193EA00909DB3 /* HQCodeMFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCodeMFileViewController.h; sourceTree = "<group>"; };
+		9319679A28C193EA00909DB3 /* HQCodeMFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCodeMFileViewController.m; sourceTree = "<group>"; };
+		9319679D28C19E3400909DB3 /* HQElementAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQElementAreaViewController.h; sourceTree = "<group>"; };
+		9319679E28C19E3400909DB3 /* HQElementAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQElementAreaViewController.m; sourceTree = "<group>"; };
+		931967A128C1DC5100909DB3 /* HQSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQSettingViewController.h; sourceTree = "<group>"; };
+		931967A228C1DC5100909DB3 /* HQSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQSettingViewController.m; sourceTree = "<group>"; };
+		931967A528C1DC8400909DB3 /* HQGeneralSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQGeneralSettingViewController.h; sourceTree = "<group>"; };
+		931967A628C1DC8400909DB3 /* HQGeneralSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQGeneralSettingViewController.m; sourceTree = "<group>"; };
+		931967AA28C1E15400909DB3 /* NSDate+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		931967AB28C1E15400909DB3 /* NSDate+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		931967AD28C1E4A400909DB3 /* HQNotificationKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQNotificationKey.h; sourceTree = "<group>"; };
 		9320173228BF55F7006B8E23 /* HQUIHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQUIHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9320173528BF55F7006B8E23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9320173628BF55F7006B8E23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +77,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9319679028C192B000909DB3 /* HQCodeAreaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9319679428C193AF00909DB3 /* HQCodeHFileViewController */,
+				9319679828C193D800909DB3 /* HQCodeMFileViewController */,
+				9319679128C192C600909DB3 /* HQCodeAreaViewController.h */,
+				9319679228C192C600909DB3 /* HQCodeAreaViewController.m */,
+			);
+			path = HQCodeAreaViewController;
+			sourceTree = "<group>";
+		};
+		9319679428C193AF00909DB3 /* HQCodeHFileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9319679528C193D100909DB3 /* HQCodeHFileViewController.h */,
+				9319679628C193D100909DB3 /* HQCodeHFileViewController.m */,
+			);
+			path = HQCodeHFileViewController;
+			sourceTree = "<group>";
+		};
+		9319679828C193D800909DB3 /* HQCodeMFileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9319679928C193EA00909DB3 /* HQCodeMFileViewController.h */,
+				9319679A28C193EA00909DB3 /* HQCodeMFileViewController.m */,
+			);
+			path = HQCodeMFileViewController;
+			sourceTree = "<group>";
+		};
+		9319679C28C19E2000909DB3 /* HQElementAreaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9319679D28C19E3400909DB3 /* HQElementAreaViewController.h */,
+				9319679E28C19E3400909DB3 /* HQElementAreaViewController.m */,
+			);
+			path = HQElementAreaViewController;
+			sourceTree = "<group>";
+		};
+		931967A028C1DC2000909DB3 /* HQSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				931967A428C1DC7500909DB3 /* HQGeneralSettingViewController */,
+				931967A128C1DC5100909DB3 /* HQSettingViewController.h */,
+				931967A228C1DC5100909DB3 /* HQSettingViewController.m */,
+			);
+			path = HQSettingViewController;
+			sourceTree = "<group>";
+		};
+		931967A428C1DC7500909DB3 /* HQGeneralSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				931967A528C1DC8400909DB3 /* HQGeneralSettingViewController.h */,
+				931967A628C1DC8400909DB3 /* HQGeneralSettingViewController.m */,
+			);
+			path = HQGeneralSettingViewController;
+			sourceTree = "<group>";
+		};
+		931967A828C1E13700909DB3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				931967A928C1E14100909DB3 /* Categories */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		931967A928C1E14100909DB3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				931967AA28C1E15400909DB3 /* NSDate+Extension.h */,
+				931967AB28C1E15400909DB3 /* NSDate+Extension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		9320172928BF55F7006B8E23 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +170,7 @@
 		9320173428BF55F7006B8E23 /* HQUIHelper */ = {
 			isa = PBXGroup;
 			children = (
+				931967A828C1E13700909DB3 /* Extensions */,
 				9387044C28C04D9000F38E41 /* Models */,
 				9387044728C04D4B00F38E41 /* Business */,
 				9320174228BF55F8006B8E23 /* HQUIHelper.entitlements */,
@@ -88,7 +185,10 @@
 		9387043028C0410B00F38E41 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				931967A028C1DC2000909DB3 /* HQSettingViewController */,
+				9319679C28C19E2000909DB3 /* HQElementAreaViewController */,
 				9320173D28BF55F8006B8E23 /* Main.storyboard */,
+				9319679028C192B000909DB3 /* HQCodeAreaViewController */,
 				9387044328C04CD400F38E41 /* HQMainViewController */,
 				9387043F28C04C7F00F38E41 /* HQWindowController */,
 				9387043128C0411500F38E41 /* HQNewFileViewController */,
@@ -111,6 +211,7 @@
 			children = (
 				9387043828C0470800F38E41 /* HQUIHelperConfig.h */,
 				9387043928C0470800F38E41 /* HQUIHelperConfig.m */,
+				931967AD28C1E4A400909DB3 /* HQNotificationKey.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -268,13 +369,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9387044228C04CB100F38E41 /* HQWindowController.m in Sources */,
+				9319679B28C193EA00909DB3 /* HQCodeMFileViewController.m in Sources */,
+				931967A728C1DC8400909DB3 /* HQGeneralSettingViewController.m in Sources */,
 				9387043528C0412600F38E41 /* HQNewFileViewController.m in Sources */,
 				9320174128BF55F8006B8E23 /* main.m in Sources */,
+				931967A328C1DC5100909DB3 /* HQSettingViewController.m in Sources */,
 				9387045128C04DB100F38E41 /* HQUIResponder.m in Sources */,
+				9319679328C192C600909DB3 /* HQCodeAreaViewController.m in Sources */,
 				9387043A28C0470800F38E41 /* HQUIHelperConfig.m in Sources */,
 				9387044B28C04D6000F38E41 /* HQClassHelper.m in Sources */,
 				9387044628C04CF000F38E41 /* HQMainViewController.m in Sources */,
+				931967AC28C1E15400909DB3 /* NSDate+Extension.m in Sources */,
 				9320173728BF55F7006B8E23 /* AppDelegate.m in Sources */,
+				9319679728C193D100909DB3 /* HQCodeHFileViewController.m in Sources */,
+				9319679F28C19E3400909DB3 /* HQElementAreaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

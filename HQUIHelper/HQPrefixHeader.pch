@@ -9,6 +9,7 @@
 #define HQPrefixHeader_pch
 
 #import "HQUIHelperConfig.h"
+#import "HQNotificationKey.h"
 
 
 #endif /* HQPrefixHeader_pch */

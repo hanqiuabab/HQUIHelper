@@ -33,6 +33,9 @@ typedef NS_ENUM(NSInteger, HQUIHelperLayoutLibrary) {
 
 + (HQUIHelperConfig *)sharedInstance;
 
+- (void)resetToDefaultConfig;
+- (NSString *)copyrightCodeByFileName:(NSString *)fileName;
+
 @end
 
 NS_ASSUME_NONNULL_END
