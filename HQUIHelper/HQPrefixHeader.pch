@@ -1,0 +1,14 @@
+//
+//  HQPrefixHeader.pch
+//  HQUIHelper
+//
+//  Created by 汉秋 on 2022/9/1.
+//
+
+#ifndef HQPrefixHeader_pch
+#define HQPrefixHeader_pch
+
+#import "HQUIHelperConfig.h"
+
+
+#endif /* HQPrefixHeader_pch */

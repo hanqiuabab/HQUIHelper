@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9320173728BF55F7006B8E23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9320173628BF55F7006B8E23 /* AppDelegate.m */; };
+		9320173C28BF55F8006B8E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9320173B28BF55F8006B8E23 /* Assets.xcassets */; };
+		9320173F28BF55F8006B8E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9320173D28BF55F8006B8E23 /* Main.storyboard */; };
+		9320174128BF55F8006B8E23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9320174028BF55F8006B8E23 /* main.m */; };
+		9387043528C0412600F38E41 /* HQNewFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9387043328C0412600F38E41 /* HQNewFileViewController.m */; };
+		9387043628C0412600F38E41 /* ZZNewFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9387043428C0412600F38E41 /* ZZNewFileViewController.xib */; };
+		9387043A28C0470800F38E41 /* HQUIHelperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9387043928C0470800F38E41 /* HQUIHelperConfig.m */; };
+		9387044228C04CB100F38E41 /* HQWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9387044128C04CB100F38E41 /* HQWindowController.m */; };
+		9387044628C04CF000F38E41 /* HQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9387044528C04CF000F38E41 /* HQMainViewController.m */; };
+		9387044B28C04D6000F38E41 /* HQClassHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9387044A28C04D6000F38E41 /* HQClassHelper.m */; };
+		9387045128C04DB100F38E41 /* HQUIResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9387045028C04DB100F38E41 /* HQUIResponder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9320173228BF55F7006B8E23 /* HQUIHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQUIHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9320173528BF55F7006B8E23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9320173628BF55F7006B8E23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9320173B28BF55F8006B8E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9320173E28BF55F8006B8E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9320174028BF55F8006B8E23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9320174228BF55F8006B8E23 /* HQUIHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HQUIHelper.entitlements; sourceTree = "<group>"; };
+		9387043228C0412600F38E41 /* HQNewFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQNewFileViewController.h; sourceTree = "<group>"; };
+		9387043328C0412600F38E41 /* HQNewFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQNewFileViewController.m; sourceTree = "<group>"; };
+		9387043428C0412600F38E41 /* ZZNewFileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZNewFileViewController.xib; sourceTree = "<group>"; };
+		9387043828C0470800F38E41 /* HQUIHelperConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQUIHelperConfig.h; sourceTree = "<group>"; };
+		9387043928C0470800F38E41 /* HQUIHelperConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQUIHelperConfig.m; sourceTree = "<group>"; };
+		9387043E28C04A4600F38E41 /* HQPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HQPrefixHeader.pch; path = HQUIHelper/HQPrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		9387044028C04CB100F38E41 /* HQWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQWindowController.h; sourceTree = "<group>"; };
+		9387044128C04CB100F38E41 /* HQWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQWindowController.m; sourceTree = "<group>"; };
+		9387044428C04CF000F38E41 /* HQMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQMainViewController.h; sourceTree = "<group>"; };
+		9387044528C04CF000F38E41 /* HQMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQMainViewController.m; sourceTree = "<group>"; };
+		9387044928C04D6000F38E41 /* HQClassHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQClassHelper.h; sourceTree = "<group>"; };
+		9387044A28C04D6000F38E41 /* HQClassHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQClassHelper.m; sourceTree = "<group>"; };
+		9387044F28C04DB100F38E41 /* HQUIResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQUIResponder.h; sourceTree = "<group>"; };
+		9387045028C04DB100F38E41 /* HQUIResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQUIResponder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9320172F28BF55F7006B8E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9320172928BF55F7006B8E23 = {
+			isa = PBXGroup;
+			children = (
+				9320173428BF55F7006B8E23 /* HQUIHelper */,
+				9320173328BF55F7006B8E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9320173328BF55F7006B8E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9320173228BF55F7006B8E23 /* HQUIHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9320173428BF55F7006B8E23 /* HQUIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9387044C28C04D9000F38E41 /* Models */,
+				9387044728C04D4B00F38E41 /* Business */,
+				9320174228BF55F8006B8E23 /* HQUIHelper.entitlements */,
+				9387043C28C0484B00F38E41 /* Resources */,
+				9387043B28C0482D00F38E41 /* Supporting Files */,
+				9387043728C046F600F38E41 /* Config */,
+				9387043028C0410B00F38E41 /* Modules */,
+			);
+			path = HQUIHelper;
+			sourceTree = "<group>";
+		};
+		9387043028C0410B00F38E41 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9320173D28BF55F8006B8E23 /* Main.storyboard */,
+				9387044328C04CD400F38E41 /* HQMainViewController */,
+				9387043F28C04C7F00F38E41 /* HQWindowController */,
+				9387043128C0411500F38E41 /* HQNewFileViewController */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9387043128C0411500F38E41 /* HQNewFileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9387043228C0412600F38E41 /* HQNewFileViewController.h */,
+				9387043328C0412600F38E41 /* HQNewFileViewController.m */,
+				9387043428C0412600F38E41 /* ZZNewFileViewController.xib */,
+			);
+			path = HQNewFileViewController;
+			sourceTree = "<group>";
+		};
+		9387043728C046F600F38E41 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9387043828C0470800F38E41 /* HQUIHelperConfig.h */,
+				9387043928C0470800F38E41 /* HQUIHelperConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9387043B28C0482D00F38E41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9387043E28C04A4600F38E41 /* HQPrefixHeader.pch */,
+				9320174028BF55F8006B8E23 /* main.m */,
+				9320173528BF55F7006B8E23 /* AppDelegate.h */,
+				9320173628BF55F7006B8E23 /* AppDelegate.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9387043C28C0484B00F38E41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9320173B28BF55F8006B8E23 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9387043F28C04C7F00F38E41 /* HQWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				9387044028C04CB100F38E41 /* HQWindowController.h */,
+				9387044128C04CB100F38E41 /* HQWindowController.m */,
+			);
+			path = HQWindowController;
+			sourceTree = "<group>";
+		};
+		9387044328C04CD400F38E41 /* HQMainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9387044428C04CF000F38E41 /* HQMainViewController.h */,
+				9387044528C04CF000F38E41 /* HQMainViewController.m */,
+			);
+			path = HQMainViewController;
+			sourceTree = "<group>";
+		};
+		9387044728C04D4B00F38E41 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				9387044828C04D5100F38E41 /* ClassHelper */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		9387044828C04D5100F38E41 /* ClassHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9387044928C04D6000F38E41 /* HQClassHelper.h */,
+				9387044A28C04D6000F38E41 /* HQClassHelper.m */,
+			);
+			path = ClassHelper;
+			sourceTree = "<group>";
+		};
+		9387044C28C04D9000F38E41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9387044D28C04D9700F38E41 /* iOS */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9387044D28C04D9700F38E41 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9387044E28C04DA300F38E41 /* HQUIResponder */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9387044E28C04DA300F38E41 /* HQUIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				9387044F28C04DB100F38E41 /* HQUIResponder.h */,
+				9387045028C04DB100F38E41 /* HQUIResponder.m */,
+			);
+			path = HQUIResponder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9320173128BF55F7006B8E23 /* HQUIHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9320174528BF55F8006B8E23 /* Build configuration list for PBXNativeTarget "HQUIHelper" */;
+			buildPhases = (
+				9320172E28BF55F7006B8E23 /* Sources */,
+				9320172F28BF55F7006B8E23 /* Frameworks */,
+				9320173028BF55F7006B8E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQUIHelper;
+			productName = HQUIHelper;
+			productReference = 9320173228BF55F7006B8E23 /* HQUIHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9320172A28BF55F7006B8E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					ddd,
+				);
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9320173128BF55F7006B8E23 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9320172D28BF55F7006B8E23 /* Build configuration list for PBXProject "HQUIHelper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9320172928BF55F7006B8E23;
+			productRefGroup = 9320173328BF55F7006B8E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9320173128BF55F7006B8E23 /* HQUIHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9320173028BF55F7006B8E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9320173C28BF55F8006B8E23 /* Assets.xcassets in Resources */,
+				9387043628C0412600F38E41 /* ZZNewFileViewController.xib in Resources */,
+				9320173F28BF55F8006B8E23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9320172E28BF55F7006B8E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9387044228C04CB100F38E41 /* HQWindowController.m in Sources */,
+				9387043528C0412600F38E41 /* HQNewFileViewController.m in Sources */,
+				9320174128BF55F8006B8E23 /* main.m in Sources */,
+				9387045128C04DB100F38E41 /* HQUIResponder.m in Sources */,
+				9387043A28C0470800F38E41 /* HQUIHelperConfig.m in Sources */,
+				9387044B28C04D6000F38E41 /* HQClassHelper.m in Sources */,
+				9387044628C04CF000F38E41 /* HQMainViewController.m in Sources */,
+				9320173728BF55F7006B8E23 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9320173D28BF55F8006B8E23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9320173E28BF55F8006B8E23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9320174328BF55F8006B8E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9320174428BF55F8006B8E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9320174628BF55F8006B8E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HQUIHelper/HQUIHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSX973P86J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HQUIHelper/HQPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanqiu.HQUIHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		9320174728BF55F8006B8E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HQUIHelper/HQUIHelper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GSX973P86J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HQUIHelper/HQPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanqiu.HQUIHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9320172D28BF55F7006B8E23 /* Build configuration list for PBXProject "HQUIHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9320174328BF55F8006B8E23 /* Debug */,
+				9320174428BF55F8006B8E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9320174528BF55F8006B8E23 /* Build configuration list for PBXNativeTarget "HQUIHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9320174628BF55F8006B8E23 /* Debug */,
+				9320174728BF55F8006B8E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9320172A28BF55F7006B8E23 /* Project object */;
+}
